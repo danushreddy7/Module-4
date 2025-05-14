@@ -10,10 +10,23 @@ To write a Python program that calculates the **area of a circle** based on the 
    Area = pi *r^2 
 4. **Execute the program**: Create an object of the class and call the method with the radius value.
 
-## 🧾 Program
+## 🧾 Program:
+```
+import math
+class cse:
+    def mech(self, radius):
+        area = math.pi * radius * radius
+        return area
+circle = cse()
+radius = float(input())
+area = circle.mech(radius)
+print(f"The area of the circle with radius {radius} is {area:.2f}")
+```
+## Output:
+```
+Input           Result
 
-Add code here
-
-## Output
-
-## Result
+ 5            The area of the circle with radius 5.0 is 78.54
+```
+## Result:
+The program was successful
