@@ -15,18 +15,18 @@ To write a Python program that calculates the **area of a circle** based on the 
 import math
 class cse:
     def mech(self, radius):
-        area = math.pi * radius * radius
-        return area
-circle = cse()
-radius = float(input())
-area = circle.mech(radius)
-print(f"The area of the circle with radius {radius} is {area:.2f}")
+        area = math.pi * radius ** 2
+        print(f"Area of circle: {area:.2f}")
+
+
+r = float(input())
+
+obj = cse()
+obj.mech(r)
 ```
 ## Output:
-```
-Input           Result
+<img width="508" height="129" alt="449556315-6cf80337-6034-4928-8e30-91fb1cc7d658" src="https://github.com/user-attachments/assets/65ff9126-8fbb-4997-8580-9102e9d336ba" />
 
- 5            The area of the circle with radius 5.0 is 78.54
-```
+
 ## Result:
 The program was successful
