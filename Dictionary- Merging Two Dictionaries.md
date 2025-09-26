@@ -11,18 +11,14 @@ To write a Python program that merges **two dictionaries** and combines their ke
 
 ## 🧾 Program:
 ```
-dict1 = {'a': 1, 'b': 2}
-dict2 = {'c': 3, 'd': 4}
-merged_dict = {**dict1, **dict2}
-print("Merged dictionary:", merged_dict)
+a=eval(input())
+b=eval(input())
+c=a.copy()
+c.update(b)
+print(c)
 ```
 ## Output:
-```
-Test                                Input                                       Result
+<img width="518" height="150" alt="449556484-42b20eaa-21b8-4d8d-96f6-ea0d267c3a4d" src="https://github.com/user-attachments/assets/308d3010-c4a6-45c5-b39f-639b780da239" />
 
-merged_dict = dict1 | dict2        dict1 = {'a': 1, 'b': 2}            Merged dictionary: {'a': 1, 'b': 2, 'c': 3, 'd': 4}
-
-                                   dict2 = {'c': 3, 'd': 4}
-```
 ## Result:
 The program was successful
